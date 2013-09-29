@@ -1,0 +1,18 @@
+# If you change this file, run 'update-grub' afterwards to update
+# /boot/grub/grub.cfg.
+# For full documentation of the options in this file, see:
+#   info -f grub -n 'Simple configuration'
+# For use with Ubuntu Server running in Parallels on Mac OSX
+
+GRUB_DEFAULT=0
+#GRUB_HIDDEN_TIMEOUT=0
+GRUB_HIDDEN_TIMEOUT_QUIET=true
+GRUB_TIMEOUT=1
+GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
+GRUB_CMDLINE_LINUX_DEFAULT=""
+GRUB_CMDLINE_LINUX=""
+
+# The resolution used on graphical terminal
+GRUB_GFXMODE=1440x900x32
+GRUB_GFXPAYLOAD=1440x900x32
+GRUB_GFXPAYLOD_LINUX=keep
