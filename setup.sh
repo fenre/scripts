@@ -12,3 +12,11 @@ git clone https://github.com/fenre/scripts.git
 sudo cp config/grub /etc/default/grub
 sudo grub-update
 
+
+# Update apt and get the latest dist-update
+sudo apt-get update
+sudo apt-get -y dist-upgrade
+
+# Install packages
+sudo apt-get install screen
+sudo apt-get install -y emacs
