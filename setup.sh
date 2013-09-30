@@ -1,6 +1,9 @@
 #!/bin/bash
 # Simple script for setting up a new Ubuntu Session
 
+# Get started
+sudo apt-get install -y curl
+
 # Create directory and download script- and configfiles.
 cd $HOME
 mkdir scripts
