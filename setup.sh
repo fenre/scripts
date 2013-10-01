@@ -23,3 +23,4 @@ sudo apt-get -y dist-upgrade
 # Install packages
 sudo apt-get install screen
 sudo apt-get install -y emacs
+sudo apt-get install -y python3
