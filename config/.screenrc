@@ -1,0 +1,14 @@
+# ~/.screenrc
+
+shell $SHELL
+
+# scrollback
+defscrollback 4000
+
+# Set the caption on the bottom line:
+# from http://diveintomark.org/public/2007/03/screenrc
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= %1`"
+
+
+# skip intro
+startup_message off
