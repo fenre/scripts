@@ -29,3 +29,4 @@ sudo apt-get install -y irssi
 
 cd $HOME
 cp /config/config .irssi/
+cp /config/.screenrc $HOME
