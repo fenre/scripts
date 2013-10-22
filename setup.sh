@@ -3,12 +3,13 @@
 
 # Get started
 sudo apt-get install -y curl
+sudo apt-get install -y git
 
 # Create directory and download script- and configfiles.
 cd $HOME
-mkdir scripts
-cd scripts
 git clone https://github.com/fenre/scripts.git
+cd scripts
+
 
 
 # Replace grub config file to get correct console resolution
@@ -18,9 +19,13 @@ sudo grub-update
 
 # Update apt and get the latest dist-update
 sudo apt-get update
-sudo apt-get -y dist-upgrade
+sudo do-release-upgrade
 
 # Install packages
 sudo apt-get install screen
 sudo apt-get install -y emacs
 sudo apt-get install -y python3
+sudo apt-get install -y irssi
+
+cd $HOME
+cp /config/config .irssi/
