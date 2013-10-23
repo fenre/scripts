@@ -27,6 +27,7 @@ sudo apt-get install -y emacs
 sudo apt-get install -y python3
 sudo apt-get install -y irssi
 
-cd $HOME
-cp /config/config .irssi/
-cp /config/.screenrc $HOME
+
+mkdir $HOME/.irssi
+cp $HOME/script/config/config $HOME/.irssi/
+cp $HOME/scripts/config/.screenrc $HOME
