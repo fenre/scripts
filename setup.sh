@@ -13,7 +13,7 @@ cd scripts
 
 
 # Replace grub config file to get correct console resolution
-sudo cp config/grub /etc/default/grub
+sudo cp $HOME/scripts/config/grub /etc/default/grub
 sudo grub-update
 
 
