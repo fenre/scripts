@@ -14,7 +14,7 @@ cd scripts
 
 # Replace grub config file to get correct console resolution
 sudo cp $HOME/scripts/config/grub /etc/default/grub
-sudo grub-update
+sudo update-grub
 
 
 # Update apt and get the latest dist-update
