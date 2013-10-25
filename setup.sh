@@ -1,9 +1,11 @@
 #!/bin/bash
 # Simple script for setting up a new Ubuntu Session
 
+
 # Get started
 sudo apt-get install -y curl
 sudo apt-get install -y git
+
 
 # Create directory and download script- and configfiles.
 cd $HOME
@@ -21,6 +23,7 @@ sudo update-grub
 sudo apt-get update
 sudo do-release-upgrade
 
+
 # Install packages
 sudo apt-get install screen
 sudo apt-get install -y emacs
@@ -31,3 +34,8 @@ sudo apt-get install -y irssi
 mkdir $HOME/.irssi
 cp $HOME/scripts/config/config $HOME/.irssi/
 cp $HOME/scripts/config/.screenrc $HOME
+
+
+#Setup aliases
+alias .. = "cd .."
+alias ll = "ls -alF"
