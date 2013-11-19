@@ -22,6 +22,7 @@ sudo update-grub
 # Update apt and get the latest dist-update
 sudo apt-get update
 sudo do-release-upgrade
+sudo apt-get dist-upgrade
 
 
 # Install packages
