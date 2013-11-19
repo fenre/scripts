@@ -110,8 +110,9 @@ channels = (
   { name = "silc"; chatnet = "silc"; autojoin = "No"; },
   { name = "#go-nuts"; chatnet = "freenode"; autojoin = "yes"; wait 5000},
   { name = "#ubuntu"; chatnet = "freenode"; autojoin = "yes"; wait 5000},
-  { name = "#python"; chatnet = "freenode"; autojoin = "yes"; wait 5000}
-  { name = "#ubuntu-server"; chatnet = "freenode"; autojoin = "yes"; wait 5000;
+  { name = "#python"; chatnet = "freenode"; autojoin = "yes"; wait 5000},
+  { name = "#ubuntu-server"; chatnet = "freenode"; autojoin = "yes"; wait 5000},
+  { name = "#bloodhound"; chatnet = "freenode"; autojoin = "yes"; wait 5000}
 );
 
 aliases = {
