@@ -42,5 +42,5 @@ sudo pip install --upgrade virtualenv
 
 
 #Setup aliases
-alias .. = 'cd ..'
-alias ll = 'ls -alF'
+alias ..='cd ..'
+alias ll='ls -alF'
