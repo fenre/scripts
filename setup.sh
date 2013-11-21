@@ -36,7 +36,11 @@ mkdir $HOME/.irssi
 cp $HOME/scripts/config/config $HOME/.irssi/
 cp $HOME/scripts/config/.screenrc $HOME
 
+sudo apt-get install python-pip python-dev build-essential
+sudo pip install --upgrade pip
+sudo pip install --upgrade virtualenv
+
 
 #Setup aliases
-alias .. = "cd .."
-alias ll = "ls -alF"
+alias .. = 'cd ..'
+alias ll = 'ls -alF'
