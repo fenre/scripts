@@ -30,19 +30,19 @@ sudo apt-get install screen
 sudo apt-get install -y emacs
 sudo apt-get install -y python3
 sudo apt-get install -y irssi
-sudo apt-get install git-core
-sudo apt-get install zlib1g-dev
-sudo apt-get install build-essential
-sudo apt-get install libssl-dev
-sudo apt-get install libreadline-dev
-sudo apt-get install libyaml-dev
-sudo apt-get install libsqlite3-dev
-sudo apt-get install sqlite3
-sudo apt-get install libxml2-dev
-sudo apt-get install libxslt1-dev
-sudo apt-get install libcurl4-openssl-dev
-sudo apt-get install python-software-properties
-sudo apt-get install libffi-dev
+sudo apt-get install -y git-core
+sudo apt-get install -y zlib1g-dev
+sudo apt-get install -y build-essential
+sudo apt-get install -y libssl-dev
+sudo apt-get install -y libreadline-dev
+sudo apt-get install -y libyaml-dev
+sudo apt-get install -y libsqlite3-dev
+sudo apt-get install -y sqlite3
+sudo apt-get install -y libxml2-dev
+sudo apt-get install -y libxslt1-dev
+sudo apt-get install -y libcurl4-openssl-dev
+sudo apt-get install -y python-software-properties
+sudo apt-get install -y libffi-dev
 
 
 mkdir $HOME/.irssi
